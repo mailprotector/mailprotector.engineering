@@ -45,6 +45,7 @@ let BeautifulJekyllJS = {
       $(".navbar").removeClass("navbar-dark").addClass("navbar-light");
     }
   },
+ 
 
   initImgs : function() {
     // If the page was large images to randomly select from, choose an image
@@ -136,6 +137,10 @@ let BeautifulJekyllJS = {
     });
   }
 };
+
+$("body").html(
+  $("body").html().replace(/&reg;/gi, '<sup>&reg;</sup>').replace(/®/gi, '<sup>&reg;</sup>')
+);
 
 // 2fc73a3a967e97599c9763d05e564189
 
