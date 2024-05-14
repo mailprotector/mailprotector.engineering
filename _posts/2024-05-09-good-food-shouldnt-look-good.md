@@ -2,17 +2,20 @@
 layout: post
 title: Good food doesn't need to look or taste "good"
 subtitle: Exploring the world of putting random healthy things into whole grain wraps so you can run farther than you should
+# cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [running, health, nasty]
-author: Theo Wecker
+author:
+  name: Theo Wecker
+  title: Marathon Runner and Food Enthusiast
 ---
 
 In the world of healthy eating, it's often said that beauty lies in the eye of the beholder. While Instagram feeds may be flooded with meticulously arranged smoothie bowls and colorful salads, the reality is that some of the most nourishing foods are far from picture-perfect. Yet, despite their humble appearance, these unassuming ingredients can play a crucial role in fueling your body for athletic pursuits, such as training for a marathon.
 
 Picture this: a runner's kitchen filled with whole grains, leafy greens, and an assortment of fresh vegetables. Amidst the chaos of preparation, there's beauty in the simplicity of these ingredients, knowing that they hold the key to unlocking peak performance on the pavement. In the pursuit of marathon greatness, it's time to embrace the ugly and harness the power of wholesome, nutritious foods.
 
-As you lace up your running shoes and hit the trails, it's essential to nourish your body with foods that provide sustained energy and support recovery. Whole grain wraps offer a versatile canvas for packing in nutrient-dense ingredients that will fuel your training sessions and propel you toward the finish line. 
+As you lace up your running shoes and hit the trails, it's essential to nourish your body with foods that provide sustained energy and support recovery. Whole grain wraps offer a versatile canvas for packing in nutrient-dense ingredients that will fuel your training sessions and propel you toward the finish line.
 
 The recipe below provides an amazing balance of flavors and textures, with the sweetness of the peanut butter and sweet potato complemented by the crunch of sunflower seeds and the savory flavor of dog food. Please consult with your veterinarian if you have any concerns about incorporating dog food into your diet.
 
