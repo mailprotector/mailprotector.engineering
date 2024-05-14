@@ -179,3 +179,83 @@ footer {
     padding:0 2em;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background:#000000;
+  }
+
+  a {
+    color:#84bd00;
+  }
+  a:hover {
+    color:#638d00;
+  }
+  .header-section {
+    background:#0f1306;
+  }
+
+  .navbar-brand, 
+  .nav-link,
+  .post-title,
+  .post-subtitle,
+  .post-meta,
+  .post-preview article span strong,
+  h1,h2,h3,h4,h5,h6,
+  .post-heading strong,
+  .blog-post p,
+  ul li,ol li,
+  .blog-tags span, .blog-tags a {
+    color:#fff !important;
+  }
+
+  .post-meta,
+  .post-preview article span strong,
+  .post-heading strong {
+    opacity:0.4;
+  }
+
+  .post-preview {
+    border-bottom: 1px solid #0f1306;
+  }
+
+  .highlight,
+  .highlight .code pre {
+    background:#111;
+    color:#999 !important;
+  }
+
+  .box-note,
+  .box-warning,
+  .box-error,
+  .box-success {
+    border: 1px solid #333;
+    border-left-width:0.3125rem !important;
+  }
+
+  .box-note {
+    background-color: rgba(233,233,233,0.2);
+    border-left-color: rgba(41,128,185,0.2);
+  }
+  
+  .box-warning {
+    background-color: rgba(253,245,212,0.2);
+    border-left-color: rgba(241,196,15,0.2);
+  }
+  
+  .box-error {
+    background-color: rgba(244,221,219,0.2);
+    border-left-color: rgba(192,57,43,0.2);
+  }
+  
+  .box-success {
+    background-color: rgba(152,251,152,0.2);
+    border-left-color: rgba(60,179,113,0.2);
+  }
+
+  .page-link:hover {
+    background:rgba(255,255,255,0.1)!important;
+  }
+
+}

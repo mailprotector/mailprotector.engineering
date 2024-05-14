@@ -3,12 +3,12 @@ layout: post
 title: Good food doesn't need to look or taste "good"
 subtitle: Exploring the world of putting random healthy things into whole grain wraps so you can run farther than you should
 # cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/placeholder-wrap-theo.png
+share-img: /assets/img/placeholder-wrap-theo.png
 tags: [running, health, nasty]
 author:
-  name: Theo Wecker
-  title: Marathon Runner and Food Enthusiast
+name: Theo Wecker
+title: Marathon Runner and Food Enthusiast
 ---
 
 In the world of healthy eating, it's often said that beauty lies in the eye of the beholder. While Instagram feeds may be flooded with meticulously arranged smoothie bowls and colorful salads, the reality is that some of the most nourishing foods are far from picture-perfect. Yet, despite their humble appearance, these unassuming ingredients can play a crucial role in fueling your body for athletic pursuits, such as training for a marathon.
