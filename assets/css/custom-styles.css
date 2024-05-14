@@ -6,10 +6,18 @@
 }
 
 .navbar-custom {
-  background: transparent;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
   border: none;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .navbar-custom {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: transparent;
+  }
+  .warning {
+    display: none;
+  }
 }
 
 .navbar-custom.top-nav-regular .avatar-container {
