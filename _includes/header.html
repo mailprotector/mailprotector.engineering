@@ -44,9 +44,9 @@
 
           {% if include.type == "post" %}
             {% if page.author %}
-              <strong>{{ page.author.name | strip_html }}</strong><br>
+              <strong>{{ page.author.name | strip_html }}</strong>
               {% if page.author.title %}
-                <em>{{ page.author.title | strip_html }}</em><br>
+                <div class="author-title">{{ page.author.title | strip_html }}</div>
               {% endif%}
             {% endif%}
 

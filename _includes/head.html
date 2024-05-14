@@ -35,7 +35,7 @@
 
   {% capture author %}
     {%- if page.author -%}
-      {{  page.author | strip_html }}
+      {{  page.author.name | strip_html }}
     {%- elsif site.author -%}
       {{ site.author }}
     {%- endif -%}
@@ -87,7 +87,7 @@
       {% include ext-css.html css=css %}
     {% endfor %}
   {% endif %}
-  
+
   {% if page.css %}
     {% for css in page.css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">

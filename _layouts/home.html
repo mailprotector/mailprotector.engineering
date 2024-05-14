@@ -40,7 +40,7 @@ layout: page
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
         {{ post.date | date: date_format }}
       </p>
-      
+
       <a href="{{ post.url | absolute_url }}">
         <h2 class="post-title">{{ post.title | strip_html }}</h2>
 
@@ -52,9 +52,12 @@ layout: page
       </a>
 
       {% if post.author %}
-        <span><strong>{{ post.author | strip_html }}</strong></span>
+        <span><strong>{{ post.author.name | strip_html }}</strong></span>
+        {% if post.author.title %}
+          <div class="author-title">{{ post.author.title | strip_html }}</div>
+        {% endif%}
       {% endif %}
-      
+
 
       <!--{% if thumbnail != "" %}
       <div class="post-image post-image-small">

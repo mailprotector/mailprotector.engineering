@@ -8,7 +8,7 @@
 .navbar-custom {
   background: transparent;
   backdrop-filter: blur(20px);
-  border: none; 
+  border: none;
 }
 
 .navbar-custom.top-nav-regular .avatar-container {
@@ -112,6 +112,11 @@ h3,h4,h5,h6 {
   font-size: 1em;
 }
 
+.author-title {
+  color: var(--mid-col);
+  font-size: 0.8em;
+}
+
 footer {
   background-color:transparent;
   border:none;
@@ -139,7 +144,7 @@ footer {
     font-size: 1.4rem;
     line-height: 1.92;
   }
-  
+
   .post-heading {
     margin-top:4em
   }
