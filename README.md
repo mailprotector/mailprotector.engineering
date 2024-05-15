@@ -19,9 +19,7 @@ cover-img: /assets/img/path.jpg (optional)
 thumbnail-img: /assets/img/placeholder-wrap-theo.png (optional)
 share-img: /assets/img/placeholder-wrap-theo.png (optional)
 tags: [tag1, tag2]
-author:
-  name: Your Name
-  title: Your title
+author: name (see data/authors.yml)
 ---
 ```
 
