@@ -31,9 +31,15 @@ How about a yummy crepe?
 
 ![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
 
+{:.image-caption}
+*This is a very yummy crepe.*
+
 It can also be centered!
 
 ![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+
+{:.image-caption.center}
+*This is a very yummy crepe.*
 
 Here's a code chunk:
 
