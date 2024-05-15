@@ -52,8 +52,15 @@ layout: page
       </a>
 
       {% if post.author %}
+      <div class="author">
+        {% if site.data.authors[post.author].avatar %}
+        <div class="author-avatar">
+          <img src="{{ site.data.authors[post.author].avatar | relative_url }}" alt="{{ site.data.authors[post.author].name | strip_html }}" class="rounded-circle">
+        </div>
+        {% endif %}
         <span><strong>{{ site.data.authors[post.author].name | strip_html }}</strong></span>
         <div class="author-title">{{ site.data.authors[post.author].title | strip_html }}</div>
+      </div>
       {% endif %}
 
 

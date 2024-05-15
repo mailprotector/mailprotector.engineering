@@ -1,6 +1,6 @@
 # Mailprotector Engineering Blog
 
-This is the official blog for the Mailprotector Engineering team. We will be posting about our experiences, challenges, and solutions as we work to build the best email platform in the world.
+This is the blog for the Mailprotector Engineering team. We will be posting about our experiences, challenges, and solutions as we work to build the best email platform in the world.
 
 ## Post ideas
 

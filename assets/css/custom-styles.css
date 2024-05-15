@@ -1,3 +1,9 @@
+.author-avatar {
+  float:left;
+  width: 48px;
+  margin-right:10px;
+}
+
 .navbar-brand .symbol {
   width:20px;
   margin-right:4px;
@@ -190,7 +196,7 @@ footer {
     line-height: 1.35em;
     font-size:1.5em;
   }
-  
+
   .image-caption {
     text-align:center;
     font-size: 1em !important;
@@ -215,9 +221,9 @@ footer {
     background:#0f1306;
   }
 
-  .navbar-brand, 
+  .navbar-brand,
   .nav-link,
-  .intro-header .page-heading .page-subheading, 
+  .intro-header .page-heading .page-subheading,
   .post-title,
   .post-subtitle,
   .post-meta,
@@ -262,17 +268,17 @@ footer {
     background-color: rgba(233,233,233,0.2);
     border-left-color: rgba(41,128,185,0.2);
   }
-  
+
   .box-warning {
     background-color: rgba(253,245,212,0.2);
     border-left-color: rgba(241,196,15,0.2);
   }
-  
+
   .box-error {
     background-color: rgba(244,221,219,0.2);
     border-left-color: rgba(192,57,43,0.2);
   }
-  
+
   .box-success {
     background-color: rgba(152,251,152,0.2);
     border-left-color: rgba(60,179,113,0.2);

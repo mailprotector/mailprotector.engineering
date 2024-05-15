@@ -2,11 +2,7 @@
 layout: post
 title: Sample markdown
 subtitle: Use this as a guide to learn how to create more engaging content using markdown
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 tags: [test]
-comments: true
-mathjax: true
 author: ben
 ---
 

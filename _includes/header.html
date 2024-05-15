@@ -43,8 +43,15 @@
 
           {% if include.type == "post" %}
             {% if page.author %}
-            <strong>{{ site.data.authors[page.author].name | strip_html }}</strong>
-            <div class="author-title">{{ site.data.authors[page.author].title | strip_html }}</div>
+              <div class="author">
+                {% if site.data.authors[page.author].avatar %}
+                <div class="author-avatar">
+                  <img src="{{ site.data.authors[page.author].avatar | relative_url }}" alt="{{ site.data.authors[page.author].name | strip_html }}" class="rounded-circle">
+                </div>
+                {% endif %}
+                <strong>{{ site.data.authors[page.author].name | strip_html }}</strong>
+                <div class="author-title">{{ site.data.authors[page.author].title | strip_html }}</div>
+              </div>
             {% endif%}
 
             {% if page.readtime %}
