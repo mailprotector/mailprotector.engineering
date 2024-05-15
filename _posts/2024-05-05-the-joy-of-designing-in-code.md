@@ -7,9 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
-author:
-  name: Jeremy Nigh
-  title: Design Director
+author: jeremy
 ---
 In the realm of web and software development, design is the bridge between creativity and functionality. Traditionally, designers have relied on mockup software to visually conceptualize their ideas before handing them over to developers. However, a paradigm shift is underway as more designers and developers recognize the benefits of designing directly in code. In this post, we'll explore why designing in code offers a superior approach and how it can revolutionize the development process.
 

@@ -52,10 +52,8 @@ layout: page
       </a>
 
       {% if post.author %}
-        <span><strong>{{ post.author.name | strip_html }}</strong></span>
-        {% if post.author.title %}
-          <div class="author-title">{{ post.author.title | strip_html }}</div>
-        {% endif%}
+        <span><strong>{{ site.data.authors[post.author].name | strip_html }}</strong></span>
+        <div class="author-title">{{ site.data.authors[post.author].title | strip_html }}</div>
       {% endif %}
 
 

@@ -5,9 +5,7 @@ subtitle: The nuanced balancing act of consuming artisan-made alchoholic beverag
 tags: [test]
 comments: true
 mathjax: true
-author:
-  name: Andy Barringer
-  title: Craft Beer Connoisseur
+author: andy
 ---
 
 In today's professional landscape, team bonding often extends beyond the confines of the office. It's not uncommon for colleagues to unwind together over a pint of craft beer after a productive week or successful project. While such social gatherings can foster camaraderie and collaboration, it's essential to strike a balance between enjoying these moments and maintaining productivity. Here's how to navigate the world of craft beer with your teammates while still staying sharp and focused.

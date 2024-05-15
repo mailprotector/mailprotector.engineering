@@ -43,10 +43,8 @@
 
           {% if include.type == "post" %}
             {% if page.author %}
-              <strong>{{ page.author.name | strip_html }}</strong>
-              {% if page.author.title %}
-                <div class="author-title">{{ page.author.title | strip_html }}</div>
-              {% endif%}
+            <strong>{{ site.data.authors[page.author].name | strip_html }}</strong>
+            <div class="author-title">{{ site.data.authors[page.author].title | strip_html }}</div>
             {% endif%}
 
             {% if page.readtime %}
