@@ -4,6 +4,7 @@ title: Sample markdown
 subtitle: Use this as a guide to learn how to create more engaging content using markdown
 tags: [test]
 author: ben
+progress-bar: true
 ---
 
 {: .box-success}

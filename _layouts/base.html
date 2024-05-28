@@ -25,7 +25,9 @@ common-js:
 {% include head.html %}
 
 <body>
-  {% include progress_bar.html %}
+  {% if page.progress-bar %}
+    {% include progress_bar.html %}
+  {% endif %}
 
   {% include gtm_body.html %}
 
