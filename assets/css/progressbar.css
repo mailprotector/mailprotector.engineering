@@ -1,8 +1,9 @@
 #progress-bar {
   background: linear-gradient(to right, #84bd00 var(--progress), transparent 0);
-  position: sticky;
+  position: fixed;
+  top:53px;
   overflow: hidden;
   width: 100%;
-  height: 3px;
-  z-index: 1;
+  height: 4px;
+  z-index: 10000;
 }
