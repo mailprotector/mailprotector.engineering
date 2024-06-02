@@ -25,6 +25,10 @@ common-js:
 {% include head.html %}
 
 <body>
+  {% if page.progress-bar %}
+    {% include progress_bar.html %}
+  {% endif %}
+
   {% include gtm_body.html %}
 
   {% include nav.html %}
